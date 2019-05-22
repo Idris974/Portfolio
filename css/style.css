@@ -1,0 +1,341 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#identité
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+    background-color:rgb(155, 210, 226);
+    background-image: url(https://static1.squarespace.com/static/58ebf210893fc04885c0a8a8/t/5900cc19197aead4c570eee2/1493768694463/Homepage_FastFlow_BG.jpg?format=1500w);
+    background-size: cover;
+    height: 700px;
+    padding-top: 100px;
+    /*padding-bottom: 20px;*/
+}
+
+.nomprenom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px;
+    height: 80px;
+    
+}
+
+/*.prenom{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 20px;
+}*/
+
+.metier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 200px;
+    
+}
+
+
+
+.barrenav{
+
+    color: black;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 1910px;
+    background-color: #46a7d4;
+    position:fixed;
+    
+}
+.barrenav a{
+
+color: black;
+text-decoration: none;
+font: bold 20px Arial, Helvetica, sans-serif;
+
+
+}
+
+.barrenav a:hover
+{
+
+    color:yellow;
+    background: #86dddc;
+    padding:20px 40px 4px 10px;
+    float:none;
+    /* width:auto;
+    border-right:1px solid #42432d; */
+    text-decoration:none;
+    font:bold 1em/1em Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-shadow: 2px 2px 2px #555;
+
+}
+
+
+
+#description
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    font-size: 30px;
+    background-color:#ffff;
+    height: 700px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.descriptif
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1610px;
+
+}
+
+#compétences{
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /*background-color:rgb(155, 210, 226);*/
+    background-image: url(https://static1.squarespace.com/static/58ebf210893fc04885c0a8a8/t/5900cc19197aead4c570eee2/1493768694463/Homepage_FastFlow_BG.jpg?format=1500w);
+    background-size: cover;
+    font-size: 20px;
+    height: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.savoir_faire
+{
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+padding-top: 30px;
+}
+
+h2{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+p{
+    hyphens:auto;
+}
+
+.maintenance_informatique
+{
+display:flex;
+flex-direction:column;
+align-items: center;
+width: 280px;
+
+}
+
+.wordpress
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 280px;
+
+}
+
+.methode_agile
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 280px;
+    
+
+}
+
+
+#expériences_et_formations{
+
+    
+    background-color: #ffff;
+    font-size: 20px;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+
+}
+
+.cercle
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+
+.adrie{
+justify-content: space-around;  
+display: block;
+border-radius: 50%;
+width: 250px;
+height: 250px;
+margin: 25px auto;
+background-size: cover;
+height:500px;
+}
+
+.agile{
+    display: block;
+    border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      margin: 25px auto;
+      /* background-image:url(images/methodeagile.png); */
+      background-size: cover;
+    }
+
+.WordPress{
+display: block;
+border-radius: 50%;
+width: 250px;
+height: 250px;
+margin: 25px auto;
+/* background-image:url(images/Wordpress.jpeg); */
+background-size: cover;
+}
+
+.Opquast{
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #46a7d4;
+      width: 250px;
+      height: 250px;
+      margin: 25px auto;
+      /* background-image:url(images/opquast.png); */
+      background-size: cover;
+    }
+
+.Dev_Web
+{
+display: block;
+border-radius: 50%;
+width: 250px;
+height: 250px;
+margin: 25px auto;
+/* background-image:url(images/simplon.png); */
+background-size: cover;
+}
+
+#portfolio{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #ffff;*/
+    background-image: url(https://static1.squarespace.com/static/58ebf210893fc04885c0a8a8/t/5900cc19197aead4c570eee2/1493768694463/Homepage_FastFlow_BG.jpg?format=1500w);
+    background-size: cover;
+    font-size: 20px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+a{
+display: flex;
+justify-content: center;
+}
+
+#formulaire
+{
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#formulaire a
+{
+    font-size:40px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3885a9;
+}
+
+footer{
+
+    background-color:#444;
+    color:white; 
+    background-size: cover;
+    font-size: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+i{ font-size:40px;}
+
+.boutton
+{
+        border: 0;
+        line-height: 3.5;
+        padding: 0 20px;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        text-decoration: none;
+        border-radius: 10px;
+        background-color:#2ca4e0;
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+}
+
+.boutton:hover {
+    background-color:#46a7d4;
+}
+
+.boutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#scrollUp {
+    position: fixed;
+    color:green;
+    bottom: 10px;
+    right: -100px;
+    opacity: 0.5; }
+
